@@ -1,0 +1,7 @@
+
+{{form_start(f,{attr:{'novalidate':'novalidate'}})}} {#<form>#}
+  {{form_label(f.name,'test esprit')}} {# <label>#}
+    {{form_widget(f.name)}} {#<input>#}
+    {{form_errors(f.name)}} {#le msg d'erreur#}
+   
+    {{form_end(f)}} {#</form>#}
